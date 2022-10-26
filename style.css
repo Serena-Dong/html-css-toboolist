@@ -1,10 +1,16 @@
-body{
+*{
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
     font-family: Arial, Helvetica, sans-serif;
 }
 /* or HEADER */
 header{ 
-    padding: 0px 20px; 
+    padding: 10px 20px; 
     line-height: 20px;         
 }
 #logo{
@@ -15,6 +21,7 @@ header{
     display: inline-block;
     font-size: 40px;
     vertical-align: middle;
+    font-weight: 900;
     
 }
 
@@ -31,23 +38,24 @@ header{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    border-radius: 10px;
 }
 
 /* NAV */
 #buttons{
-    padding: 10px 30px 5px ;
+    padding: 10px 30px 5px;
 }
-nav input{
+.btn{
     border-radius: 5px;
     padding: 5px 10px;
     margin: 1px;
 }
-#button-one{
+.button-one{
     background-color: rgb(16, 151, 255);
     color: white;
     border-color: rgba(0, 0, 0, 0);
 }
-#button-two{
+.button-two{
     background-color: white;
     color: rgba(0, 0, 0, 0.500);
     border-color: rgba(0, 0, 0, 0.227)
@@ -61,7 +69,7 @@ section{
     margin: 40px;
 }
 section h3, section ul{
-line-height: 35px;
+line-height: 40px;
 }
 ul{
     padding: 0;
@@ -69,7 +77,24 @@ ul{
     list-style: none;
     
 }
-section span{
+.task-status{
+    width: 15px;
+    height: 15px;
+    border: 1px solid currentColor;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 10px;
+    line-height: 15px;
+    vertical-align: middle;
+    text-align: center;
+}
+.done{
+    color: green;
+}
+.undone{
+    color: red;
+}
+.badge{
     margin: 5px;
     border-radius: 10px;
     padding: 5px 10px;
