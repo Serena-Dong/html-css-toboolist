@@ -23,33 +23,53 @@
                 <nav>
                     <div id="buttons">
 
-                        <input type="button" value="Add Task" id="button-one">
-                        <input type="button" value="Add Section" id="button-two">
+                        <input type="button" value="Add Task" class="btn button-one">
+                        <input type="button" value="Add Section" class="btn button-two">
 
                     </div>
                     <hr>
                 </nav>
                 <!-- CONTENUTO -->
                 <section>
-                    <h3>&#9660; New Task</h3>
-                    <ul>
-                        <li>Quarterly Newsletter <span class="blue">Editorial</span></li> 
+                    <h3>&blacktriangledown; New Task</h3>
+                    <ul class="task-list">
+                        <li class="task-item">
+                            <span class="task-status done">&check;</span>
+                            <span class="task-text"> Quarterly Newsletter</span> 
+                            <span class="blue badge">Editorial</span></li> 
                     </ul>
 
-                    <h3>&#9660; Today</h3>
+                    <h3>&blacktriangledown; Today</h3>
                     <ul>
-                        <li>recruiting blog spot <span class="blue">Editorial</span></li>
-                        <li>mobile app launch <span class="violet">Q1-goals</span></li>
-                        <li class="nope">Interview John H. <span class="turquoise">Recruiting</span></li>
-                        <li>Summit supdate to mobile storefronts <span class="orange">Mobile</span></li>
+                        <li>
+                            <span class="task-status done">&check;</span>
+                            recruiting blog spot <span class="blue badge">Editorial</span></li>
+                        <li>
+                            <span class="task-status done">&check;</span>
+                            mobile app launch <span class="violet badge">Q1-goals</span></li>
+                        <li>
+                            <span class="task-status undone">&check;</span>
+                            Interview John H. 
+                            <span class="turquoise badge">Recruiting</span></li>
+                        <li>
+                            <span class="task-status done">&check;</span>
+                            Summit supdate to mobile storefronts <span class="orange badge">Mobile</span></li>
                     </ul>
 
-                    <h3>&#9660; Upcoming</h3>
+                    <h3>&blacktriangledown; Upcoming</h3>
                     <ul>
-                        <li class="nope">Schedule Meeting with Alex <span class="turquoise">Recruiting</span></li>
-                        <li>Homepage refresh <span class="fuchsia">Website</span></li>
-                        <li class="nope">Onboard new Sales team members <span class="green">Sales</span></li>
-                        <li>Review editorial character <span class="orange">Editorial</span></li>
+                        <li>
+                            <span class="task-status undone">&check;</span>
+                            Schedule Meeting with Alex <span class="turquoise badge">Recruiting</span></li>
+                        <li>
+                            <span class="task-status done">&check;</span>
+                            Homepage refresh <span class="fuchsia badge">Website</span></li>
+                        <li>
+                            <span class="task-status undone">&check;</span>
+                            Onboard new Sales team members <span class="badge">Sales</span></li>
+                        <li>
+                            <span class="task-status done">&check;</span>
+                            Review editorial character <span class="orange badge">Editorial</span></li>
                     </ul>
                 </section>
             </div>
