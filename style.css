@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* or HEADER */
+header{ 
+    padding: 0px 20px; 
+    line-height: 20px;         
+}
+#logo{
+    display: inline-block;
+    vertical-align: middle;
+}
+#logo-title{
+    display: inline-block;
+    font-size: 40px;
+    vertical-align: middle;
+    
+}
+
+/* MAIN */
+#main-background {
+    background-color: rgb(233, 233, 233);
+    height: 1000px;
+}
+#container{
+    background-color: white;
+    height: 70%;
+    width: 70%;
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* NAV */
+#buttons{
+    padding: 10px 30px 5px ;
+}
+nav input{
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 1px;
+}
+#button-one{
+    background-color: rgb(16, 151, 255);
+    color: white;
+    border-color: rgba(0, 0, 0, 0);
+}
+#button-two{
+    background-color: white;
+    color: rgba(0, 0, 0, 0.500);
+    border-color: rgba(0, 0, 0, 0.227)
+}
+hr{
+    border-top: 0.5px solid lightgrey;
+}
+
+/* CONTENUTO */
+section{
+    margin: 40px;
+}
+section h3, section ul{
+line-height: 35px;
+}
+ul{
+    padding: 0;
+    list-style-position: inside;
+    list-style: none;
+    
+}
+section span{
+    margin: 5px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    color: white;
+    background-color: aqua;
+    font-size: 12px;
+}
+.blue{
+    background-color: rgb(16, 151, 255);
+}
+.violet{
+    background-color: blueviolet;
+}
+.turquoise{
+    background-color: rgb(46, 188, 150);
+}
+.orange{
+    background-color: orange;
+}
+.fuchsia{
+    background-color: rgb(219, 80, 163);
+}
+.green{
+    background-color: rgb(154, 179, 64);
+}
